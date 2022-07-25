@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Poppins:ital,wght@0,300;0,400;1,100;1,500&family=Roboto:ital,wght@0,300;0,400;1,300&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../multimedia/hoja-pliegue-realista-textura-papel-arrugado_107791-13648.webp)
+}
+
+.casillero{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 200px;}
+
+.casillero .forma{
+    padding: 50px;
+    color: aliceblue;
+    font-family: montserrat;}
+
+
+
+
+.casillero .forma h1, h2{
+    font-size: 50px;
+    padding: 20px;}
+
+
+.casillero .forma p, li{
+    font-size: 20px;}
+
+    .piedepagina {
+        background-color: #131213;
+        padding: 30px; }
+            .piedepagina p {
+            margin: 0,6px;
+            text-align: center;
+            color: aliceblue;
+            background-color: rgb(28, 27, 27);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+        .piedepagina .img-vec{
+            text-align: center;
+            position: relative;
+            background-color: rgb(50, 49, 49);}
+        .piedepagina .img-vec .img-vec__1{
+            width: 50px;
+            height: 50px;
+            padding: 4px;}
+        .piedepagina .img-vec .img-vec__2{
+            width: 50px;
+            height: 50px;
+            padding: 4px;}
+         .piedepagina .img-vec .img-vec__3{
+            width: 50px;
+            height: 50px;
+            padding: 4px;}
+
+            @media screen and (max-width: 500px){
+                .casillero{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    padding: 0px;
+                }
+
+                .casillero .forma{
+                    padding: 20pxpx;
+                    color: aliceblue;
+                    font-family: montserrat;}
+                
+                .casillero .forma h1, h2{
+                    font-size: 35px;
+                    padding: 5px;}
+                
+                
+                .casillero .forma p, li{
+                    font-size: 18px;}
+
+            }

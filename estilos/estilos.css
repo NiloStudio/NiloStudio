@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,500&family=Roboto:ital,wght@0,300;0,400;1,300&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-image: url(../multimedia/fondo-madera-negra-textura-madera-vieja_88281-3221.webp);
+    color: aliceblue;
+    padding: 0 15px;}
+.contendedor{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;}
+h1{
+    text-align: center;
+    font-size: 90px;
+    padding: 50px;}
+span{
+    color: yellow;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 50px;}
+
+.casillero{
+    box-shadow: 0 0 20px 0 #fff;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;}
+.contenedor .casillero .leon{
+    border-radius: 40%;
+    position: relative;
+    top: 20px;
+    content: 300px;
+    height: 150px;
+    transition: 3s;}
+.casillero .leon:hover{
+height: 160px ;}
+.forma{
+    background-color: rgb(33, 32, 32);
+    display: flex;
+    flex-direction: row;}
+.forma p{
+    padding: 20px;
+    font-size: 35px;
+    font-family: montserrat;}
+.forma strong{
+    font-family: montserrat;
+    color: yellow;
+    font-size: 30px;
+}
+.main p{
+    color: aliceblue;
+}
+.info{
+    text-align: center;}
+.info h2{
+    font-size: 40px;
+    font-family: montserrat;
+    text-decoration: underline;
+    padding: 10px;}
+.info h3{
+    color: yellow;
+    font-family: montserrat;
+    font-size: 40px;}
+.info .span-h3{
+    color: #fff;
+    font-size: 30px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secundario{
+   background-image: url("../multimedia/taller1.jpg");
+   height: 450px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 0,5px;
+   border: solid 4px black;
+   
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   color: #fff;
+   font-size: 20px;
+   flex-wrap: wrap;}
+   .piedepagina {
+    background-color: #131213;
+    padding: 30px; }
+        .piedepagina p {
+        margin: 0,6px;
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(28, 27, 27);
+        font-size: 15px;}
+    .piedepagina .img-vec{
+        text-align: center;
+        position: relative;
+        background-color: rgb(50, 49, 49);}
+
+    .piedepagina .img-vec .img-vec__1{
+        width: 50px;
+        height: 50px;
+        padding: 4px;}
+    .piedepagina .img-vec .img-vec__2{
+        width: 50px;
+        height: 50px;
+        padding: 4px;}
+
+    .piedepagina .img-vec .img-vec__3{
+        width: 50px;
+        height: 50px;    
+        padding: 4px;}
+
+
+
+        @media screen and (max-width: 500px){
+            .contendedor{
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                ;}
+                h1{
+                text-align: center;
+                font-size: 50px;
+                padding: 20px;}
+                span{
+                    font-size: 30px;
+                }
+                .forma p{
+                padding: 10px;
+                font-size: 20px}
+                .info h2{
+                    font-size: 40px;
+                }
+                .contenedor .casillero .leon{
+                    border-radius: 40%;
+                    position: relative;
+                    top: 1px;
+                    content: 300px;
+                    height: 150px;
+                    transition: 3s;
+                    padding: 5px;}     
+                    
+                .casillero{
+                display: grid;
+                grid-template-columns: 1fr;}
+                    
+                .secundario{
+                    background-image: url("../multimedia/PARALLAX.jpg");
+                    height: 300px;
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 0,5px;
+        }
+
+        }
+
+   
+    

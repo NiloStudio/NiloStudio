@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,500&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&family=Rock+Salt&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  background-image: url(../multimedia/fondo-madera-negra-textura-madera-vieja_88281-3221.webp);}
+  body ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-image: linear-gradient(to top, #654965, rgb(75, 71, 71));}
+    body ul li {
+      padding: 10px;
+      font-size: 15px;}
+      body ul li a {
+        color: antiquewhite;
+        padding: 12px;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif; }
+        body ul li a:hover {
+          color: rgb(150, 177, 201); }
+    body h1 {
+      text-align: center;
+      font-size: 60px;
+      color: #ffff; 
+      padding: 20px;}
+    
+      body .cointainer {
+      background-color: aliceblue;
+      width: 80%;
+      height: 100%;
+      margin: 1.6em auto;
+      text-align: center;
+      display: grid;
+      gap: 30px;
+      grid-template-columns: repeat(5, 1fr); }
+     body .cointainer{
+        background-image: url(../multimedia/hoja-pliegue-realista-textura-papel-arrugado_107791-13648.webp);}
+      body .cointainer .header {
+        border: solid 2px black;
+        position: relative;
+        background-image: url(../multimedia/otrosladrillosblancos.webp);}
+        body .cointainer .header h2 {
+          padding-top: 350px;
+          padding-left: 20px;
+          padding-right: 20px;
+          color: black; 
+          font-weight: bold;
+          font-size: 45px;
+          font-family: cursive;}
+
+          
+      body .cointainer .article {
+        padding: 150px; 
+      }
+        body .cointainer .article p {
+          font-style: italic; 
+          color: #ffff;}
+        body .cointainer .article h3 {
+          font-size: 30px;
+          color: #ffff; }
+      body .cointainer .cajas img {
+        padding: 8px;
+        width: 350px;
+        height: 400px; }
+        body .cointainer .cajas img:hover {
+          cursor: pointer; }
+        body .cointainer .cajas p{
+          color: #ffff;
+          padding: 20px;
+        }
+        body .cointainer .cajas input{
+        box-shadow: 0 0 20px 0 #fff;
+        background: black;
+         color: aliceblue;
+         text-transform: uppercase;
+         padding: 5px;
+        border-radius: 10px ;}
+      body .cointainer .cointainer > .header,
+      body .cointainer .cointainer > .content,
+      body .cointainer .cointainer > .cajas,
+      body .cointainer .cointainer > .div {
+        background-color: aliceblue;
+        padding: 20px;
+        border: 1px solid black; }
+      body .cointainer .cointainer .header {
+        grid-column: 1/6; }
+      body .cointainer .cointainer .content {
+        grid-column: span 3; }
+        .piedepagina {
+          background-color: #131213;
+          padding: 30px; }
+              .piedepagina p {
+              margin: 0,6px;
+              text-align: center;
+              color: aliceblue;
+              background-color: rgb(28, 27, 27);
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+          .piedepagina .img-vec{
+              text-align: center;
+              position: relative;
+              background-color: rgb(50, 49, 49);}
+          .piedepagina .img-vec .img-vec__1{
+              width: 50px;
+              height: 50px;
+              padding: 4px;}
+          .piedepagina .img-vec .img-vec__2{
+              width: 50px;
+              height: 50px;
+              padding: 4px;}
+           .piedepagina .img-vec .img-vec__3{
+              width: 50px;
+              height: 50px;
+              padding: 4px;}
+  
+  @media screen and (max-width: 500px) {
+   body .cointainer {
+ 
+      width: 80%;
+      height: 100%;
+      margin: 1.6em auto;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    body .cointainer .header h2 {
+      padding-top: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: black; 
+      font-weight: bold;
+      font-size: 45px;
+      font-family: cursive;}
+
+      body .cointainer .article {
+        padding: 50px;
+
+      }
+
+
+
+  
+  }
